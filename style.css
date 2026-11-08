@@ -1,0 +1,51 @@
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+}
+
+
+.animatedback {
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    background-image: 
+    url(myweb-art/backs-frame0.png),
+    url(myweb-art/backs1-frame0.png),
+    url(myweb-art/backs2-frame0.png),
+    url(myweb-art/backs3-frame0.png),
+    url(myweb-art/backs4-frame0.png),
+    url(myweb-art/backs5-frame0.png);
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: crossfade 1s infinite;}
+
+    @keyframes crossfade {
+    0% {
+        background-image: url('myweb-art/backs-frame0.png');
+    }
+    30% {
+        background-image: url('myweb-art/backs1-frame0.png');
+    }
+    40% {
+        background-image: url('myweb-art/backs2-frame0.png');
+    }
+    60% {
+        background-image: url('myweb-art/backs3-frame0.png');
+    }
+    70% {
+        background-image: url('myweb-art/backs4-frame0.png');
+    }
+    100% {
+        background-image: url('myweb-art/backs5-frame0.png');
+    }
+}
+.heading {
+    width: 100vw;
+    z-index: 1;
+}
