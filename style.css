@@ -5,8 +5,14 @@ body {
     padding: 0;
 }
 
-
+.container {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
 .animatedback {
+    position: absolute;
     width: 100vw;
     height: 100vh;
     z-index: -1;
@@ -23,9 +29,9 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    animation: crossfade 1s infinite;}
+    animation: backy 1s infinite;}
 
-    @keyframes crossfade {
+    @keyframes backy {
     0% {
         background-image: url('myweb-art/backs-frame0.png');
     }
@@ -46,6 +52,136 @@ body {
     }
 }
 .heading {
-    width: 100vw;
+    position: absolute;
+    width: 40vw;
     z-index: 1;
+    right: 30%;
+    transition: transform 0.1s ease-in;
+    margin-top: 2vw;
 }
+.heading:hover {
+    transform: scale(1.07);
+    filter: hue-rotate(80deg);
+}
+
+.instalink {
+    display:block;
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    left: 60%;
+    transition: transform 0.1s ease-in;
+}
+.instalink:hover {
+    transform: scale(1.07);
+}
+.instafoto {
+    width: 15vw;
+    height: auto;
+}
+.slacklink {
+    display:block;
+    z-index: 1;
+    position: absolute;
+    top: 65%;
+    left: 80%;
+    transition: transform 0.1s ease-in;
+}
+.slacklink:hover {
+    transform: scale(1.07);
+}
+.slackfoto {
+    width: 13vw;
+    height: auto;
+}
+
+.animatedback1 {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    margin: 0;
+    padding: 0;
+    transform: scaleY(-1);
+    background-image: 
+    url(myweb-art/backs-frame0.png),
+    url(myweb-art/backs1-frame0.png),
+    url(myweb-art/backs2-frame0.png),
+    url(myweb-art/backs3-frame0.png),
+    url(myweb-art/backs4-frame0.png),
+    url(myweb-art/backs5-frame0.png);
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: backy 1s infinite;}
+
+    @keyframes backy {
+    0% {
+        background-image: url('myweb-art/backs-frame0.png');
+    }
+    30% {
+        background-image: url('myweb-art/backs1-frame0.png');
+    }
+    40% {
+        background-image: url('myweb-art/backs2-frame0.png');
+    }
+    60% {
+        background-image: url('myweb-art/backs3-frame0.png');
+    }
+    70% {
+        background-image: url('myweb-art/backs4-frame0.png');
+    }
+    100% {
+        background-image: url('myweb-art/backs5-frame0.png');
+    }}
+
+
+    .animatedME {
+    position: absolute;
+    top: 50%;
+    left: 3%;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    background-image: 
+    url(myweb-art/mefoto-frame0.png),
+    url(myweb-art/mefoto1-frame0.png),
+    url(myweb-art/mefoto2-frame0.png),
+    url(myweb-art/mefoto3-frame0.png),
+    url(myweb-art/mefoto4-frame0.png);
+    
+    background-repeat: no-repeat;
+    animation: myfotu 1s infinite;
+}
+
+    @keyframes myfotu {
+    0% {
+        background-image: url('myweb-art/mefoto-frame0.png');
+    }
+    30% {
+        background-image: url('myweb-art/mefoto1-frame0.png');
+    }
+    40% {
+        background-image: url('myweb-art/mefoto2-frame0.png');
+    }
+    60% {
+        background-image: url('myweb-art/mefoto3-frame0.png');
+    }
+    100% {
+        background-image: url('myweb-art/mefoto4-frame0.png');
+    }
+    }
+    .metext {
+        position: absolute;
+        width: 45vw;
+        top: 5%;
+        left: 57%;
+        transition: transform 0.1s ease-in;
+}
+.metext:hover {
+    transform: scale(1.07);
+    filter: hue-rotate(80deg);
+    }
