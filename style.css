@@ -72,8 +72,8 @@ body::-webkit-scrollbar {
     display:block;
     z-index: 1;
     position: absolute;
-    top: 65%;
-    left: 60%;
+    top: 69%;
+    left: 10%;
     transition: transform 0.1s ease-in;
 }
 .instalink:hover {
@@ -87,8 +87,8 @@ body::-webkit-scrollbar {
     display:block;
     z-index: 1;
     position: absolute;
-    top: 65%;
-    left: 80%;
+    top: 67%;
+    left: 40%;
     transition: transform 0.1s ease-in;
 }
 .slacklink:hover {
@@ -143,10 +143,11 @@ body::-webkit-scrollbar {
 
 .animatedME {
     position: absolute;
-    top: 30%;
-    left: 35%;
+    top: 8%;
+    left: 48%;
     width: 100vw;
     height: 100vh;
+    transform: scaleX(-1);
     z-index: 2;
     margin: 0;
     padding: 0;
@@ -159,7 +160,7 @@ body::-webkit-scrollbar {
     
     background-repeat: no-repeat;
     animation: myfotu 0.5s infinite;
-    background-size: 80vw auto;
+    background-size: 120vw auto;
 }
 
     @keyframes myfotu {
@@ -182,7 +183,7 @@ body::-webkit-scrollbar {
 .metext {
         position: absolute;
         width: 24vw;
-        top: 1%;
+        top: 48%;
         left: 65%;
         transition: transform 0.1s ease-in;
 }
@@ -247,4 +248,10 @@ body::-webkit-scrollbar {
      100% {
         background-image: url('myweb-art/skel-frame0.png');
     }
+}
+
+.loveback {
+    width: 100vw;
+    height: 51vw;
+    background-size: cover;
 }
