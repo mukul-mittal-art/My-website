@@ -3,6 +3,8 @@ body {
     overflow-y: auto;
     margin: 0;
     padding: 0;
+    cursor: url(myweb-art/cursor-frame0.png), auto;
+    cursor: url(myweb-art/cursor-frame0.png), pointer;
 }
 
 .container {
@@ -140,7 +142,7 @@ body {
     .animatedME {
     position: absolute;
     top: 50%;
-    left: 3%;
+    left: 40%;
     width: 100vw;
     height: 100vh;
     z-index: 2;
@@ -176,12 +178,18 @@ body {
     }
     .metext {
         position: absolute;
-        width: 45vw;
-        top: 5%;
-        left: 57%;
+        width: 24vw;
+        top: 1%;
+        left: 65%;
         transition: transform 0.1s ease-in;
 }
 .metext:hover {
     transform: scale(1.07);
     filter: hue-rotate(80deg);
+    }
+
+    .skellyback {
+        position: absolute;
+        width: 100vw;
+        height: auto;
     }
