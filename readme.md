@@ -11,6 +11,11 @@ I have coded this personal website to show the weird thoughts i have and the mus
 Program used: Visual Studio Code, Pixeloroma
 Languages used: CSS, HTML (lapse if it counts)
 
+# Demands by Grandma
+* **NO JAVASCRIPT** : I used zero javascript.
+* **No ifs** : I used No if statements, switches or ternaries. ( used html and css only )
+* **Homemade** : I used no third-party libraries or engines.
+
 # What does it do?
 makes me happy. (jk)
 It's a project that shows my weird thoughts, for if someone is interested in them. I wanted to make this to learn new webdev mechanics and pixel art.
@@ -21,6 +26,7 @@ It's a project that shows my weird thoughts, for if someone is interested in the
 * I imported all artworks and necessary files and started coding.
 * I added hover effects, animations and positioned my artworks.
 * I worked section by section, gradually adding more assets.
+* Added assets by drawing on pixeloroma, converting pxo to png, and then positioning them in my website.
 
 # Problems i faced
 * How to animate with images? (keyframes)

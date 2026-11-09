@@ -324,6 +324,7 @@ body::-webkit-scrollbar {
     transform: scale(1.05);
 }
 
+/* container for my spotify songs */
 .spotifysongs {
     position: absolute;
     width: 40vw;
@@ -331,7 +332,7 @@ body::-webkit-scrollbar {
     left: 60%;
 }
 
-/* background for what i listen to text */
+/* background for "what i listen to" text */
 .blackback2 {
     position: absolute;
     top: 52%;
@@ -343,6 +344,7 @@ body::-webkit-scrollbar {
     z-index: -1;
     border: solid 5px antiquewhite;
 }
+/* my individal spotify songs */
 iframe {
     margin-top: 30px;
     margin-left: 20px;
