@@ -35,11 +35,11 @@ On what? CSS
 I used AI to help debug my code and teach me how to code animations and position certain elements.
 
 # Screenshots
-![Screenshot 1](Screenshots/screen1.png)
-![Screenshot 2](Screenshots/screen2.png)
-![Screenshot 3](Screenshots/screen3.png)
-![Screenshot 4](Screenshots/screen4.png)
-![Screenshot 5](Screenshots/screen5.png)
+![Screenshot 1](screenshots/screen1.png)
+![Screenshot 2](screenshots/screen2.png)
+![Screenshot 3](screenshots/screen3.png)
+![Screenshot 4](screenshots/screen4.png)
+![Screenshot 5](screenshots/screen5.png)
 
 # How to run the project locally
 Clone and run this repository:
