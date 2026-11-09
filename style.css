@@ -6,7 +6,9 @@ body {
     cursor: url(myweb-art/cursor-frame0.png), auto;
     cursor: url(myweb-art/cursor-frame0.png), pointer;
 }
-
+body::-webkit-scrollbar {
+    display: none;
+}
 .container {
     position: relative;
     overflow: hidden;
@@ -139,10 +141,10 @@ body {
     }}
 
 
-    .animatedME {
+.animatedME {
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 30%;
+    left: 35%;
     width: 100vw;
     height: 100vh;
     z-index: 2;
@@ -156,7 +158,8 @@ body {
     url(myweb-art/mefoto4-frame0.png);
     
     background-repeat: no-repeat;
-    animation: myfotu 1s infinite;
+    animation: myfotu 0.5s infinite;
+    background-size: 80vw auto;
 }
 
     @keyframes myfotu {
@@ -176,7 +179,7 @@ body {
         background-image: url('myweb-art/mefoto4-frame0.png');
     }
     }
-    .metext {
+.metext {
         position: absolute;
         width: 24vw;
         top: 1%;
@@ -188,8 +191,60 @@ body {
     filter: hue-rotate(80deg);
     }
 
-    .skellyback {
+.skellyback {
         position: absolute;
         width: 100vw;
-        height: auto;
+        height: 100vh;
     }
+
+.animatedchar {
+    position: absolute;
+    top: 10%;
+    left: 40%;
+    width: 100vw;
+    height: 100vh;
+    max-width: none;
+    z-index: 2;
+    margin: 0;
+    padding: 0;
+    background-image: 
+    url(myweb-art/skel-frame0.png),
+    url(myweb-art/skel2-frame0.png),
+    url(myweb-art/skel3-frame0.png),
+    url(myweb-art/skel4-frame0.png),
+    url(myweb-art/skel5-frame0.png);
+    
+    background-repeat: no-repeat;
+    animation: mycharacter 1s infinite;
+    background-size: 20vw auto;
+}
+
+    @keyframes mycharacter {
+    0% {
+        background-image: url('myweb-art/skel-frame0.png');
+    }
+    20% {
+        background-image: url('myweb-art/skel2-frame0.png');
+    }
+    30% {
+        background-image: url('myweb-art/skel3-frame0.png');
+    }
+    40% {
+        background-image: url('myweb-art/skel4-frame0.png');
+    }
+    50% {
+        background-image: url('myweb-art/skel5-frame0.png');
+    }
+        70% {
+        background-image: url('myweb-art/skel4-frame0.png');
+    }
+     80% {
+        background-image: url('myweb-art/skel3-frame0.png');
+    }
+     90% {
+        background-image: url('myweb-art/skel2-frame0.png');
+    }
+     100% {
+        background-image: url('myweb-art/skel-frame0.png');
+    }
+}
