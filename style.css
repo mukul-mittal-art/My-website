@@ -3,18 +3,22 @@ body {
     overflow-y: auto;
     margin: 0;
     padding: 0;
+/* CUSTOM CURSOR BTW :) */
     cursor: url(myweb-art/cursor-frame0.png), auto;
-    cursor: url(myweb-art/cursor-frame0.png), pointer;
 }
 body::-webkit-scrollbar {
     display: none;
 }
+
+/* All div containers sizing */
 .container {
     position: relative;
     overflow: hidden;
     width: 100vw;
     height: 100vh;
 }
+
+/* animated background (section 1) */
 .animatedback {
     position: absolute;
     width: 100vw;
@@ -35,6 +39,7 @@ body::-webkit-scrollbar {
     background-repeat: no-repeat;
     animation: backy 1s infinite;}
 
+/* animation for background */
     @keyframes backy {
     0% {
         background-image: url('myweb-art/backs-frame0.png');
@@ -55,6 +60,8 @@ body::-webkit-scrollbar {
         background-image: url('myweb-art/backs5-frame0.png');
     }
 }
+
+/* heading of section1 */
 .heading {
     position: absolute;
     width: 40vw;
@@ -68,6 +75,7 @@ body::-webkit-scrollbar {
     filter: hue-rotate(80deg);
 }
 
+/* background of section1 */
 .blackback0 {
     position: absolute;
     top: 1%;
@@ -80,6 +88,7 @@ body::-webkit-scrollbar {
     border: solid 3px antiquewhite;
 }
 
+/* intro text */
 .metext {
         position: absolute;
         width: 24vw;
@@ -92,6 +101,7 @@ body::-webkit-scrollbar {
     filter: hue-rotate(80deg);
     }
 
+/* background of section1 */
 .blackback {
     position: absolute;
     top: 48%;
@@ -104,6 +114,7 @@ body::-webkit-scrollbar {
     border: solid 3px antiquewhite;
 }
 
+/* insta and slack links */
 .instalink {
     display:block;
     z-index: 1;
@@ -135,6 +146,7 @@ body::-webkit-scrollbar {
     height: auto;
 }
 
+/* animated background section2 (almost same but flipped vertically) */
 .animatedback1 {
     position: absolute;
     width: 100vw;
@@ -156,6 +168,7 @@ body::-webkit-scrollbar {
     background-repeat: no-repeat;
     animation: backy 1s infinite;}
 
+/* animation for background */
     @keyframes backy {
     0% {
         background-image: url('myweb-art/backs-frame0.png');
@@ -176,7 +189,7 @@ body::-webkit-scrollbar {
         background-image: url('myweb-art/backs5-frame0.png');
     }}
 
-
+/* animation of my character */
 .animatedME {
     position: absolute;
     top: 8%;
@@ -217,6 +230,7 @@ body::-webkit-scrollbar {
     }
     }
 
+/* background of my character */
 .blackback1 {
     position: absolute;
     top: 22.2%;
@@ -229,12 +243,14 @@ body::-webkit-scrollbar {
     border: solid 5px antiquewhite;
 }
 
+/* background for section3*/
 .skellyback {
         position: absolute;
         width: 100vw;
         height: 100vh;
     }
 
+/* character skelly */
 .animatedchar {
     position: absolute;
     top: 10%;
@@ -257,6 +273,7 @@ body::-webkit-scrollbar {
     background-size: 20vw auto;
 }
 
+/* animation of skelly */
     @keyframes mycharacter {
     0% {
         background-image: url('myweb-art/skel-frame0.png');
@@ -287,6 +304,7 @@ body::-webkit-scrollbar {
     }
 }
 
+/* background of section 4(single image) */
 .loveback {
     width: 100vw;
     height: 51vw;
